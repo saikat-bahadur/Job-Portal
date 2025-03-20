@@ -13,7 +13,7 @@
       }
     ],
     "env": {
-      "MONGO_URI": "mongodb+srv://padma27:Padma27@cluster0.ihcfb.mongodb.net"
+      "MONGO_URI": "MONGO_URI"
     }
   }
   
