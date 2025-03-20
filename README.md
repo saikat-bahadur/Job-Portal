@@ -40,6 +40,28 @@ npm run dev
 - Job listing and application management
 - Chatbot for real-time assistance
 - Responsive design for mobile and desktop
+- **Detailed Features**: 
+  - **User Authentication**: Secure login and registration process.
+  - **Job Listings**: Browse and filter job postings.
+  - **Application Management**: Track application status and history.
+  - **Chatbot Functionality**: Get instant help and answers to queries.
+
+## API Documentation
+- **GET /api/jobs**: Retrieve a list of job postings.
+- **POST /api/apply**: Submit a job application.
+- **GET /api/chatbot**: Interact with the chatbot for assistance.
+
+## Deployment Instructions
+To deploy the application in a production environment, ensure that you configure environment variables and set up a production server.
+
+## Technologies Used
+- **Frontend**: React, Tailwind CSS
+- **Backend**: Node.js, Express, MongoDB
+
+## Troubleshooting
+- **Common Issues**: 
+  - If you encounter issues with dependencies, try deleting `node_modules` and reinstalling.
+  - Ensure that your MongoDB server is running for backend functionality.
 
 ## Screenshot
 - Home Page Image: ![Home Page](Frontend/public/home.png)
