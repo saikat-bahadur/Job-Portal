@@ -41,6 +41,9 @@ npm run dev
 - Chatbot for real-time assistance
 - Responsive design for mobile and desktop
 
+## Screenshot
+- Home Page Image: ![Home Page](Frontend/public/home.png)
+
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request for any enhancements or bug fixes.
 
