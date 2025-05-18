@@ -12,8 +12,5 @@
         "dest": "server.js"
       }
     ],
-    "env": {
-      "MONGO_URI": "MONGO_URI"
-    }
   }
   
