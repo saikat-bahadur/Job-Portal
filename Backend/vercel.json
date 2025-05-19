@@ -11,9 +11,7 @@
         "src": "/(.*)",
         "dest": "server.js"
       }
-    ],
-     "env": {
-      "MONGO_URI":"mongodb+srv://saikatbahadur1234:saikat_16@cluster0.salbc.mongodb.net"
-    }
+    ]
+     
   }
   
