@@ -8,13 +8,16 @@ dotenv.config();
 const startServer = async () => {
   try {
     await connectDB();
-    console.log("✅ MongoDB Connected");
+    console.log("MongoDB Connected");
 
     await connectCloudinary();
-    console.log("✅ Cloudinary Connected");
-
+    console.log(" Cloudinary Connected");
+     const port = process.env.PORT || 3000; 
+    app.listen(port, "0.0.0.0", () => {
+      console.log(`Server running on http://localhost:${port}`);
+    });
   } catch (error) {
-    console.error("❌ Error starting the server:", error);
+    console.error(" Error starting the server:", error);
     process.exit(1);
   }
 };
