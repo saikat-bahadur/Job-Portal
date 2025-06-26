@@ -10,15 +10,14 @@ const startServer = async () => {
     console.log("MongoDB Connected");
 
     await connectCloudinary();
-    console.log("Cloudinary Connected");
-
-    const port = process.env.PORT || 3000; // Fallback to 3000 if PORT is not set
+    console.log(" Cloudinary Connected");
+     const port = process.env.PORT || 3000; 
     app.listen(port, () => {
       console.log(`Server running on http://localhost:${port}`);
     });
   } catch (error) {
     console.error(" Error starting the server:", error);
-    process.exit(1); // Exit process on failure
+    process.exit(1);
   }
 };
 
