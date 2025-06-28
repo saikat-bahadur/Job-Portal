@@ -3,7 +3,7 @@ import JobApplication from "../models/jobApplication.models.js";
 import User from "../models/User.models.js";
 import { v2 as cloudinary } from "cloudinary";
 import jwt from "jsonwebtoken";
-import bcrypt from "bcrypt";
+import bcrypt from "bcryptjs";
 import fs from 'fs';
 import path from 'path';
 import transporter from "../config/nodemailer.js";
